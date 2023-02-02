@@ -7,3 +7,7 @@ server:
     read: 15
     write: 10
     idle: 5
+
+db:
+  path: "mongodb+srv://SON:Son123456789.@cluster0.7fhom.mongodb.net/?retryWrites=true&w=majority"
+  database: "mongo-attendace"
