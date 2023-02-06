@@ -19,6 +19,6 @@ func NewRouter() *gin.Engine {
 func addV1Services(router *gin.Engine) {
 	v1 := router.Group("v1")
 	{
-		userRouter(v1, &controllers.UserController{})
+		accountRoute(v1, new(controllers.AccountController))
 	}
 }
